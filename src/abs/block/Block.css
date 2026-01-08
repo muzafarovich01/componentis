@@ -1,0 +1,47 @@
+.block {
+  background: linear-gradient(135deg, #ffffff, #f4f8ff);
+  padding: 18px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+  transition: 0.3s;
+}
+
+.block:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+.block img {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.block h3 {
+  font-size: 17px;
+  margin-bottom: 6px;
+  color: #243447;
+}
+
+.block p {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.block button {
+  background: #4e9dfc;
+  color: white;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.block button:hover {
+  background: #1d7ef5;
+  transform: scale(1.05);
+}

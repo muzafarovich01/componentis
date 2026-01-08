@@ -1,0 +1,38 @@
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.12);
+}
+
+.card img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #4e9dfc;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 19px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.card .ish {
+  color: #666;
+  margin-bottom: 3px;
+}
+
+.card .soxa {
+  color: #4e9dfc;
+  font-weight: bold;
+}
