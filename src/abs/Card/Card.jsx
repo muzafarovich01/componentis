@@ -9,7 +9,7 @@ function Card({ rasim, name, ish, soxa }) {
       <p className="ish">{ish}</p>
       <p className="soxa">{soxa}</p>
     </div>
-  )
+  );
 }
 
 export default Card;
